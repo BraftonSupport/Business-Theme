@@ -152,12 +152,8 @@ if(is_single()) {
 						echo '<p>'.get_the_excerpt( $blog_page_id ).'</p>';	
 					}
 				?>
-<<<<<<< HEAD
-			</header><!-- .page-header -->
-=======
 				</div>
 		</header><!-- .page-header -->
->>>>>>> 9736bf3b8d8c56f1c080e8efa3f917be51795c25
 		<?php } ?>
 
 		<div id="content" class="site-content<?php if ( !is_page_template( 'parent-page.php' ) || is_home() || is_archive() || is_single() ) {echo ' site-inner';} ?>">
